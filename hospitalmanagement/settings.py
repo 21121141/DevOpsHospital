@@ -79,12 +79,12 @@ WSGI_APPLICATION = 'hospitalmanagement.wsgi.application'
 
 DATABASES = {
         'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'innodb',
-        'USER': 'admin',
-        'PASSWORD': 'Pradeep123',
-        'HOST': 'database-2.cliqjrdc3lzv.eu-west-1.rds.amazonaws.com',
-        'port': '3306'
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd6jdod07srfsg',
+        'USER': 'npwaumrxibbdan',
+        'PASSWORD': 'edf98d65e39886f2f8ca00dceb1906cf72bde57bb3470bfe5517e9716a8e78fd',
+        'HOST': 'ec2-34-231-183-74.compute-1.amazonaws.com',
+        'port': '5432'
     }
     
 }
