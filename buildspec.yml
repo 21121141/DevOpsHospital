@@ -7,7 +7,7 @@ phases:
     commands:
       - pip3 install --upgrade pip
       # Install dependencies needed for running the static analysis
-      - pip3 install -r requirements.txt pylint
+      - pip3 install -r requirements.txt
       
 
 #   pre_build:
